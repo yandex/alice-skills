@@ -12,8 +12,6 @@
         "start": "node index.js"
     },
     "dependencies": {
-        "async": "^2.1.2",
-        "body-parser": "^1.18.3",
         "express": "^4.16.3"
     }
 }
