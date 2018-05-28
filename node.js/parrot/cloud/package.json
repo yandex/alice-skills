@@ -1,0 +1,19 @@
+{
+    "name": "parrot-skill",
+    "description": "Parrot skill",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Pirim",
+    "engines": {
+        "node": ">=6.9.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "async": "^2.1.2",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3"
+    }
+}
