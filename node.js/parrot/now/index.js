@@ -9,11 +9,11 @@ module.exports = async (req, res) => {
 
     // В тело ответа вставляются свойства version и session из запроса.
     // Подробнее о формате запроса и ответа — в разделе Протокол работы навыка.
-    res.end(JSON.stringify({
+    res.end(JSON.stringify(
+        {
             version,
             session,
             response: {
-
                 // В свойстве response.text возвращается исходная реплика пользователя.
                 // Если навык был активирован без дополнительной команды,
                 // пользователю нужно сказать "Hello!".
@@ -23,6 +23,6 @@ module.exports = async (req, res) => {
                 // чтобы диалог не завершался.
                 end_session: false,
             },
-        })
-    );
+        }
+    ));
 };
